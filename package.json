@@ -1,0 +1,29 @@
+{
+  "name": "@paperist/documentation",
+  "description": "![Paperist](./assets/paperist-logo.png)",
+  "author": "3846masa <3846masahiro+git@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Paperist/documentation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Paperist/documentation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Paperist/documentation/issues"
+  },
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook build",
+    "prerelease": "npm run build",
+    "release": "gh-pages -d _book",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gitbook serve"
+  },
+  "dependencies": {
+    "gh-pages": "^1.0.0",
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-search-languages": "^0.1.1"
+  },
+  "devDependencies": {}
+}

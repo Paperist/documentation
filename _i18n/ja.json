@@ -1,0 +1,20 @@
+{
+  "LANGS_CHOOSE": "言語を選択",
+  "GLOSSARY": "用語集",
+  "GLOSSARY_INDEX": "索引",
+  "GLOSSARY_OPEN": "用語集",
+  "GITBOOK_LINK": "GitBookで公開",
+  "SUMMARY": "目次",
+  "SUMMARY_INTRODUCTION": "はじめに",
+  "SUMMARY_TOGGLE": "目次",
+  "SEARCH_TOGGLE": "検索",
+  "SEARCH_PLACEHOLDER": "入力して検索する",
+  "FONTSETTINGS_TOGGLE": "フォント設定",
+  "SHARE_TOGGLE": "共有",
+  "SHARE_ON": "{{platform}}で共有",
+  "FONTSETTINGS_WHITE": "白",
+  "FONTSETTINGS_SEPIA": "セピア",
+  "FONTSETTINGS_NIGHT": "黒",
+  "FONTSETTINGS_SANS": "ゴシック体",
+  "FONTSETTINGS_SERIF": "明朝体"
+}
