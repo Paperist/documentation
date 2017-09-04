@@ -16,7 +16,7 @@
   "scripts": {
     "build": "gitbook build",
     "prerelease": "npm run build",
-    "release": "gh-pages _book",
+    "release": "gh-pages -d _book",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "gitbook serve"
   },
