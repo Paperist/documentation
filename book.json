@@ -1,0 +1,13 @@
+{
+  "title": "Paperist - Write a paper with Markdown",
+  "description":
+    "The environment of writing a paper with Markdown and rendering via LaTeX.",
+  "language": "ja",
+  "gitbook": "^3.2.3",
+  "plugins": ["-lunr", "search-languages"],
+  "pluginsConfig": {
+    "searchLanguages": {
+      "lang": "jp"
+    }
+  }
+}
