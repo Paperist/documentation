@@ -14,12 +14,19 @@ npm install https://github.com/Paperist/template-example-japanese.git
 
 ## Paperist 提供のテンプレート
 
+テンプレートは更新日時などをみて、
+**現行のテンプレートと互換性があるか確認してから利用してください**。
+
 - [paperist/template-example-japanese]
   - サンプル文章の日本語版です
   - `npm install https://github.com/Paperist/template-example-japanese.git`
-- [paperist/template-ipsj-techreport-uplatex]
+- [paperist/template-ipsj-techreport]
   - 情報処理学会の研究報告用のテンプレートです
-  - `npm install https://github.com/Paperist/template-ipsj-techreport-uplatex.git`
+  - `npm install https://github.com/Paperist/template-ipsj-techreport.git`
+- [paperist/template-wiss]
+  - WISSのテンプレートです
+  - `npm install https://github.com/Paperist/template-wiss.git`
 
 [paperist/template-example-japanese]: https://github.com/Paperist/template-example-japanese
-[paperist/template-ipsj-techreport-uplatex]: https://github.com/Paperist/template-ipsj-techreport-uplatex
+[paperist/template-ipsj-techreport]: https://github.com/Paperist/template-ipsj-techreport
+[paperist/template-wiss]: https://github.com/Paperist/template-wiss
