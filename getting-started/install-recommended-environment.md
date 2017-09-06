@@ -59,4 +59,3 @@ Windows 版 TeX Live および MacTeX は、
 - `latexmk`
 
 詳しい情報は、[TeX Live - TeX Wiki](https://texwiki.texjp.org/?TeX%20Live)を参照してください。
-
