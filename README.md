@@ -1,3 +1,7 @@
+---
+description: The environment of writing a paper with Markdown and rendering via LaTeX.
+---
+
 # Paperist
 
 ![Paperist](./assets/paperist-logo.png)

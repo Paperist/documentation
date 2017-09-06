@@ -1,6 +1,6 @@
 # Summary
 
-- [Paperist](README.md)
+- [Welcome](README.md)
 
 - [はじめに](getting-started/README.md)
 

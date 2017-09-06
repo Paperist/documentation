@@ -1,0 +1,16 @@
+{% extends template.self %}
+
+{% block head %}
+  {{ super() }}
+  {### Twitter Card ###}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }} · {{ config.title|d("GitBook", true) }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ config.ogp_image }}">
+  {### OGP ###}
+  <meta property="og:title" content="{{ page.title }} · {{ config.title|d("GitBook", true) }}">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="{{ config.ogp_image }}" />
+  <meta property="og:site_name"  content="{{ config.title|d("GitBook", true) }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+{% endblock %}
