@@ -15,11 +15,10 @@ Paperist では、以下のソフトウェアが必要です。
     - `collection-basic`
     - `collection-latex`
     - `collection-latexrecommended`
+    - `collection-latexextra`
     - `collection-fontsrecommended`
     - `collection-langjapanese`
     - `latexmk`
-  - 以下のコレクションを推奨します
-    - `collection-latexextra`
 
 ## インストール
 
@@ -49,4 +48,3 @@ npm run build
 
 `main.pdf` が生成されれば、
 インストールは無事に完了しています。
-
