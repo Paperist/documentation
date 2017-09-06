@@ -16,3 +16,8 @@ Node.js と LaTeX 環境があれば、
 
 さあ、[さっそく始めましょう](./getting-started/README.md)。
 
+## バグ・要望などについて
+
+バグや要望は、[paperist/issues]に報告してください。
+
+[paperist/issues]: https://github.com/Paperist/issues/issues/new
