@@ -1,4 +1,4 @@
-# BibTex で参考文献を書く
+# BibTeX で参考文献を書く
 
 Paperist では、
 参考文献の記述として BibTeX を利用しています。
