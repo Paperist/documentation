@@ -13,6 +13,10 @@ Paperist 独自の仕様について説明します。
 詳細については、
 https://github.com/Paperist/remark-latex#syntax を参照してください。
 
+## URL
+
+URL は `<https://example.com>` のように `<` `>` で囲むことを推奨しています。
+
 ## Table caption
 
 Table caption 記法で、
