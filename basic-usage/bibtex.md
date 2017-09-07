@@ -52,3 +52,15 @@ Paperist では、
   author = {{John Smith} and 鈴木花子},
 }
 ```
+
+### URL を折り返す
+
+URL は `\url{}` で囲うことを推奨しています。
+
+```bib
+@misc{example,
+  title = {Example Domain},
+  howpublished = {\url{http://example.com/}},
+  note = {(Accessed on 09/07/2017)}
+}
+```
