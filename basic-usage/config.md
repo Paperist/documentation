@@ -15,7 +15,9 @@
 settings:
   latex:
     documentInfo:
-      title: 論文タイトル
+      title:
+        ja: 論文タイトル
       authors:
-        - 山田 太郎
+        - name:
+            ja: 山田 太郎
 ```
