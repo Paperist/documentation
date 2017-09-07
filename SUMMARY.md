@@ -8,6 +8,7 @@
   - [各フォルダについて](basic-usage/folders.md)
   - [文章の設定をする](basic-usage/config.md)
   - [文章を書く](basic-usage/syntax.md)
+  - [BibTeX で参考文献を書く](basic-usage/bibtex.md)
   - [PDF を作成する](basic-usage/make-pdf.md)
   - [テンプレートをインストールする](basic-usage/templates.md)
 
