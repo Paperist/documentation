@@ -15,5 +15,5 @@
 - [[**WIP**] カスタマイズ](customize/README.md)
   - [[**WIP**] フォントを変える](customize/change-fonts.md)
 
-- [付録](APPENDIX.md)
-  - [推奨環境のインストール](getting-started/install-recommended-environment.md)
+- [付録](appendix/README.md)
+  - [推奨環境のインストール](appendix/install-recommended-environment.md)

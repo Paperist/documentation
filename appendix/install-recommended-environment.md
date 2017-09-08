@@ -1,4 +1,4 @@
-# 付録 | 推奨環境のインストール
+# 推奨環境のインストール
 
 ## Git
 
@@ -18,12 +18,19 @@ Docker image を使う方法と TeX Live でインストールする方法があ
 Docker 環境がある場合は、
 [Whalebrew](https://github.com/bfirsh/whalebrew) を使うと導入が簡単です。
 
-macOS / Linux の場合は、
-https://github.com/bfirsh/whalebrew#install を参考に
-Whalebrew をインストールします。
+macOS / Linux の場合は、次のスクリプトを実行します。
 
-Whalebrew 経由で `latexmk` を導入するには、
-以下のコマンドを実行します。
+```bash
+curl -L "https://github.com/3846masa/whalebrew/releases/download/0.1.0/whalebrew-$(uname -s)-$(uname -m)" -o /usr/local/bin/whalebrew; chmod +x /usr/local/bin/whalebrew
+```
+
+Windows の場合は PowerShell から、次のスクリプトを実行します。
+
+```ps
+Set-ExecutionPolicy -Scope CurrentUser AllSigned; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/3846masa/whalebrew/0.1.0/install.ps1'))
+```
+
+Whalebrew 経由で `latexmk` を導入するには、以下のコマンドを実行します。
 
 ```bash
 whalebrew install paperist/latexmk
