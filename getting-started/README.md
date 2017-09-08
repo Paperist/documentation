@@ -4,7 +4,7 @@
 
 Paperist では、以下のソフトウェアが必要です。
 
-（これらのインストール方法は、[付録 | 推奨環境のインストール](./install-recommended-environment.md)を参照してください。）
+（これらのインストール方法は、[付録 | 推奨環境のインストール](../appendix/install-recommended-environment.md)を参照してください。）
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/ja/)
