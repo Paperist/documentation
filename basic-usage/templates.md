@@ -7,10 +7,8 @@
 paperist template install Paperist/template-example-japanese
 ```
 
-インストール中に
-「テンプレートを上書きするか」と「サンプルを上書きするか」を
-尋ねられます。
-**上書きすると元には戻せません**。
+`--with-example` or `-w` をつけることで、
+サンプルをインストールできます（**サンプルで上書きすると元には戻せません**）。
 
 ## Paperist 提供のテンプレート
 
