@@ -22,7 +22,7 @@ npm install https://github.com/Paperist/template-example-japanese.git
   - `npm install https://github.com/Paperist/template-example-japanese.git`
 - [@paperist/template-sourcehan-fonts]
   - 本文のフォントを [源ノ角ゴシック] / [源ノ明朝] にします
-  - `npm install https://github.com/Paperist/template-example-japanese.git`
+  - `npm install https://github.com/Paperist/template-sourcehan-fonts.git`
 - [@paperist/template-ipsj-techreport]
   - [情報処理学会]の研究報告用のテンプレートです
   - 情報処理学会主催 [インタラクション]にも対応しています
