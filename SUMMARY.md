@@ -13,7 +13,7 @@
   - [テンプレートをインストールする](basic-usage/templates.md)
 
 - [[**WIP**] カスタマイズ](customize/README.md)
-  - [[**WIP**] フォントを変える](customize/change-fonts.md)
+  - [フォントを変える](customize/change-fonts.md)
 
 - [付録](appendix/README.md)
   - [推奨環境のインストール](appendix/install-recommended-environment.md)
