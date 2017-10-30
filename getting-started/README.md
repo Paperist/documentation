@@ -8,7 +8,7 @@ Paperist では、以下のソフトウェアが必要です。
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/ja/)
-  - **バージョン 6.11.2 以上が必要です**
+  - **バージョン 7.6.0 以上が必要です**
 - [LaTeX](https://www.tug.org/texlive/)
   - TeXLive 2017 以上を推奨します
   - **以下のコレクションが必要です**
@@ -22,29 +22,31 @@ Paperist では、以下のソフトウェアが必要です。
 
 ## インストール
 
-スターターキットをダウンロードして、
-必要なソフトウェアをインストールします。
-
 コマンドプロンプト もしくは ターミナルから、
 以下のコマンドを実行してください。
 
 ```bash
-git clone --depth 1 https://github.com/Paperist/starter-kit.git
-cd ./starter-kit
-npm install
+npm install --global @paperist/cli
 ```
 
 ## 試してみる
 
-スターターキットには、
+まずは、執筆フォルダを作りましょう。
+
+```bash
+paperist init ./new-paper
+cd ./new-paper
+```
+
+執筆フォルダには、
 すでにサンプルの文章が入っています。
 
 サンプルの文章を PDF にするには、
 以下のコマンドを実行してください。
 
 ```bash
-npm run build
+paperist build
 ```
 
-`main.pdf` が生成されれば、
+`build.pdf` が生成されれば、
 インストールは無事に完了しています。

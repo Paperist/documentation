@@ -1,10 +1,7 @@
 # 文章の設定をする
 
 文章の設定は、
-`remarkrc.yml` で変更できます。
-
-（`remarkrc.yml` の詳細は、
-[wooorm/remark]リポジトリを参照してください。）
+`paperist.config.yml` で変更できます。
 
 [wooorm/remark]: https://github.com/wooorm/remark/tree/master/packages/remark-cli
 
@@ -12,12 +9,10 @@
 テンプレートに反映されます。
 
 ```yaml
-settings:
-  latex:
-    documentInfo:
-      title:
-        ja: 論文タイトル
-      authors:
-        - name:
-            ja: 山田 太郎
+documentInfo:
+  title:
+    ja: 論文タイトル
+  authors:
+    - name:
+        ja: 山田 太郎
 ```
