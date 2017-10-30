@@ -8,7 +8,7 @@ paperist template install Paperist/template-example-japanese
 ```
 
 `--with-example` or `-w` をつけることで、
-サンプルをインストールできます（**サンプルで上書きすると元には戻せません**）。
+サンプルも一緒にインストールできます（**サンプルで上書きすると元には戻せません**）。
 
 ## Paperist 提供のテンプレート
 
