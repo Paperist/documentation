@@ -343,7 +343,7 @@
 <ul>
 <li><a href="https://git-scm.com/" target="_blank">Git</a></li>
 <li><a href="https://nodejs.org/ja/" target="_blank">Node.js</a><ul>
-<li><strong>&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3; 6.11.2 &#x4EE5;&#x4E0A;&#x304C;&#x5FC5;&#x8981;&#x3067;&#x3059;</strong></li>
+<li><strong>&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3; 7.6.0 &#x4EE5;&#x4E0A;&#x304C;&#x5FC5;&#x8981;&#x3067;&#x3059;</strong></li>
 </ul>
 </li>
 <li><a href="https://www.tug.org/texlive/" target="_blank">LaTeX</a><ul>
@@ -362,22 +362,22 @@
 </li>
 </ul>
 <h2 id="&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;">&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;</h2>
-<p>&#x30B9;&#x30BF;&#x30FC;&#x30BF;&#x30FC;&#x30AD;&#x30C3;&#x30C8;&#x3092;&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;&#x3001;
-&#x5FC5;&#x8981;&#x306A;&#x30BD;&#x30D5;&#x30C8;&#x30A6;&#x30A7;&#x30A2;&#x3092;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3057;&#x307E;&#x3059;&#x3002;</p>
 <p>&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x30D7;&#x30ED;&#x30F3;&#x30D7;&#x30C8; &#x3082;&#x3057;&#x304F;&#x306F; &#x30BF;&#x30FC;&#x30DF;&#x30CA;&#x30EB;&#x304B;&#x3089;&#x3001;
 &#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3092;&#x5B9F;&#x884C;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
-<pre><code class="lang-bash">git <span class="hljs-built_in">clone</span> --depth 1 https://github.com/Paperist/starter-kit.git
-<span class="hljs-built_in">cd</span> ./starter-kit
-npm install
+<pre><code class="lang-bash">npm install --global @paperist/cli
 </code></pre>
 <h2 id="&#x8A66;&#x3057;&#x3066;&#x307F;&#x308B;">&#x8A66;&#x3057;&#x3066;&#x307F;&#x308B;</h2>
-<p>&#x30B9;&#x30BF;&#x30FC;&#x30BF;&#x30FC;&#x30AD;&#x30C3;&#x30C8;&#x306B;&#x306F;&#x3001;
+<p>&#x307E;&#x305A;&#x306F;&#x3001;&#x57F7;&#x7B46;&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x3092;&#x4F5C;&#x308A;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<pre><code class="lang-bash">paperist init ./new-paper
+<span class="hljs-built_in">cd</span> ./new-paper
+</code></pre>
+<p>&#x57F7;&#x7B46;&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x306B;&#x306F;&#x3001;
 &#x3059;&#x3067;&#x306B;&#x30B5;&#x30F3;&#x30D7;&#x30EB;&#x306E;&#x6587;&#x7AE0;&#x304C;&#x5165;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
 <p>&#x30B5;&#x30F3;&#x30D7;&#x30EB;&#x306E;&#x6587;&#x7AE0;&#x3092; PDF &#x306B;&#x3059;&#x308B;&#x306B;&#x306F;&#x3001;
 &#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3092;&#x5B9F;&#x884C;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
-<pre><code class="lang-bash">npm run build
+<pre><code class="lang-bash">paperist build
 </code></pre>
-<p><code>main.pdf</code> &#x304C;&#x751F;&#x6210;&#x3055;&#x308C;&#x308C;&#x3070;&#x3001;
+<p><code>build.pdf</code> &#x304C;&#x751F;&#x6210;&#x3055;&#x308C;&#x308C;&#x3070;&#x3001;
 &#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x306F;&#x7121;&#x4E8B;&#x306B;&#x5B8C;&#x4E86;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
 
                                 
@@ -422,7 +422,7 @@ npm install
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"はじめに","level":"1.2","depth":1,"next":{"title":"基本的な使い方","level":"1.3","depth":1,"path":"basic-usage/README.md","ref":"basic-usage/README.md","articles":[{"title":"各フォルダについて","level":"1.3.1","depth":2,"path":"basic-usage/folders.md","ref":"basic-usage/folders.md","articles":[]},{"title":"文章の設定をする","level":"1.3.2","depth":2,"path":"basic-usage/config.md","ref":"basic-usage/config.md","articles":[]},{"title":"文章を書く","level":"1.3.3","depth":2,"path":"basic-usage/syntax.md","ref":"basic-usage/syntax.md","articles":[]},{"title":"BibTeX で参考文献を書く","level":"1.3.4","depth":2,"path":"basic-usage/bibtex.md","ref":"basic-usage/bibtex.md","articles":[]},{"title":"PDF を作成する","level":"1.3.5","depth":2,"path":"basic-usage/make-pdf.md","ref":"basic-usage/make-pdf.md","articles":[]},{"title":"テンプレートをインストールする","level":"1.3.6","depth":2,"path":"basic-usage/templates.md","ref":"basic-usage/templates.md","articles":[]}]},"previous":{"title":"Welcome","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","search-languages"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"searchLanguages":{"lang":"jp"},"search-languages":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false,"lang":"jp"},"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"ogp_image":"https://paperist.mikumiku.moe/assets/paperist-logo.png","variables":{},"title":"Paperist - Write a paper with Markdown","language":"ja","gitbook":"^3.2.3","description":"The environment of writing a paper with Markdown and rendering via LaTeX."},"file":{"path":"getting-started/README.md","mtime":"2017-09-08T02:18:10.246Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-08T02:21:12.433Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"はじめに","level":"1.2","depth":1,"next":{"title":"基本的な使い方","level":"1.3","depth":1,"path":"basic-usage/README.md","ref":"basic-usage/README.md","articles":[{"title":"各フォルダについて","level":"1.3.1","depth":2,"path":"basic-usage/folders.md","ref":"basic-usage/folders.md","articles":[]},{"title":"文章の設定をする","level":"1.3.2","depth":2,"path":"basic-usage/config.md","ref":"basic-usage/config.md","articles":[]},{"title":"文章を書く","level":"1.3.3","depth":2,"path":"basic-usage/syntax.md","ref":"basic-usage/syntax.md","articles":[]},{"title":"BibTeX で参考文献を書く","level":"1.3.4","depth":2,"path":"basic-usage/bibtex.md","ref":"basic-usage/bibtex.md","articles":[]},{"title":"PDF を作成する","level":"1.3.5","depth":2,"path":"basic-usage/make-pdf.md","ref":"basic-usage/make-pdf.md","articles":[]},{"title":"テンプレートをインストールする","level":"1.3.6","depth":2,"path":"basic-usage/templates.md","ref":"basic-usage/templates.md","articles":[]}]},"previous":{"title":"Welcome","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","search-languages"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"searchLanguages":{"lang":"jp"},"search-languages":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false,"lang":"jp"},"highlight":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"ogp_image":"https://paperist.mikumiku.moe/assets/paperist-logo.png","variables":{},"title":"Paperist - Write a paper with Markdown","language":"ja","gitbook":"^3.2.3","description":"The environment of writing a paper with Markdown and rendering via LaTeX."},"file":{"path":"getting-started/README.md","mtime":"2017-10-30T12:18:26.048Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-10-30T13:02:51.967Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

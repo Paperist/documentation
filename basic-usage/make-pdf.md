@@ -5,7 +5,7 @@
 PDF が作成されます。
 
 ```bash
-npm run build
+paperist build
 ```
 
 また、
@@ -16,7 +16,7 @@ npm run build
 ファイルの監視が始まります。
 
 ```bash
-npm run watch
+paperist watch
 ```
 
 ## 注意点
